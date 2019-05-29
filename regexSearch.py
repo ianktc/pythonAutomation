@@ -28,7 +28,7 @@ def prompt(query):
 # finds all files with .txt extension in the given directory
 def findFiles(directoryName):
 
-    # this function opens lists the files within a directory
+    # this function opens and lists the files within a directory
     files = os.listdir(directoryName)
 
     # list containing all files with .txt type
